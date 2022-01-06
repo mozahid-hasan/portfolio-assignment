@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+h1 {
+  margin: 0;
+}
+.focused {
+  width: 200px;
+  border-left: 4px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+span {
+  font-size: bold;
+  color: tomato;
+}
+.focused > h1 {
+  padding: 8px;
+}
+a {
+  text-decoration: none;
+  font-weight: 1000;
+  color: ivory;
+}
+.link {
+  background-image: linear-gradient(red, orange);
+  padding: 10px 30px;
+  border-radius: 5px;
+
+  border: none;
+}
+img {
+  margin: 0px;
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.upper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.parent1 {
+  width: 50%;
+}
+.second-1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.second-2 {
+  padding: 20px;
+  display: flex;
+}
+.illustrator {
+  height: 100px;
+  width: 100px;
+}
+.second-2 > div {
+  margin: 10px;
+  padding: 30px;
+  padding-bottom: 20px;
+}
+#div1 {
+  background-color: rgba(157, 194, 201, 0.5);
+  border-radius: 20px;
+}
+#div2 {
+  background-color: rgba(224, 207, 224, 0.5);
+  border-radius: 20px;
+}
+#div3 {
+  background-color: rgba(238, 220, 231, 0.5);
+  border-radius: 20px;
+}
+.devolop {
+  display: flex;
+  align-items: center;
+}
+.devolop-1 {
+  margin: 0px;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+.devolop > div {
+  margin: 20px;
+}
+#devolop2 {
+  margin-left: 100px;
+  width: 500px;
+}
+#devolop3 {
+  margin-right: 100px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-family: cursive;
+  background-color: black;
+  color: blanchedalmond;
+}
+.corona {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.corona-1 {
+  margin-right: 20px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#corona-0 {
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+}
